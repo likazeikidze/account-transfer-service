@@ -1,6 +1,6 @@
 # Account Transfer Service
 
-A simple full-stack application for simulating money transfers between accounts. Built as a technical assignment, with an eye toward being a real starting point for future development.
+A simple full-stack application for simulating money transfers between accounts.
 
 ## Overview
 
