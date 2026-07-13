@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22926C36-705C-4B91-857C-BE3042D8B176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTransferService.Domain", "src\AccountTransferService.Domain\AccountTransferService.Domain.csproj", "{125D0555-42B3-442F-889E-500C986A6A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTransferService.Infrastructure", "src\AccountTransferService.Infrastructure\AccountTransferService.Infrastructure.csproj", "{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTransferService.Api", "src\AccountTransferService.Api\AccountTransferService.Api.csproj", "{AD7460DC-6F95-46AE-99DE-3A6B5961497B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{05E6D88F-4D3E-4B2B-9E16-E80DF3274D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTransferService.Tests", "tests\AccountTransferService.Tests\AccountTransferService.Tests.csproj", "{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125D0555-42B3-442F-889E-500C986A6A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125D0555-42B3-442F-889E-500C986A6A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125D0555-42B3-442F-889E-500C986A6A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125D0555-42B3-442F-889E-500C986A6A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7460DC-6F95-46AE-99DE-3A6B5961497B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7460DC-6F95-46AE-99DE-3A6B5961497B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7460DC-6F95-46AE-99DE-3A6B5961497B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7460DC-6F95-46AE-99DE-3A6B5961497B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{125D0555-42B3-442F-889E-500C986A6A2C} = {22926C36-705C-4B91-857C-BE3042D8B176}
+		{8B6EDF9A-A62F-47D9-9E1C-645C44AA23A5} = {22926C36-705C-4B91-857C-BE3042D8B176}
+		{AD7460DC-6F95-46AE-99DE-3A6B5961497B} = {22926C36-705C-4B91-857C-BE3042D8B176}
+		{04F1A3A0-3CB7-4864-8EE6-46865A1A48C0} = {05E6D88F-4D3E-4B2B-9E16-E80DF3274D2F}
+	EndGlobalSection
+EndGlobal
